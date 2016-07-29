@@ -1,0 +1,21 @@
+<!-- [ Mirror metadata ] generatedAt: 1464328326446 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/sendsms_edit">
+        <!-- ImageView Examples:
+        <iv_phone_book src="@drawable/image_resource" />
+        <iv_phone_book src="relative_path/image.jpg" /> -->
+        <iv_phone_book />
+        <!-- TextView Examples:
+        <sendsms_content text="@string/string_resource" />
+        <sendsms_content text="Text literal" textSize="14sp" /> -->
+        <sendsms_content />
+        <tv_birth />
+        <tv_time />
+        <notice />
+    </_content>
+</screen>

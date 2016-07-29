@@ -1,0 +1,21 @@
+<!-- [ Mirror metadata ] generatedAt: 1464328326409 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/birth_item">
+        <!-- TextView Examples:
+        <user_name text="@string/string_resource" />
+        <user_name text="Text literal" textSize="14sp" /> -->
+        <user_name />
+        <!-- ImageView Examples:
+        <lunar_icon src="@drawable/image_resource" />
+        <lunar_icon src="relative_path/image.jpg" /> -->
+        <lunar_icon />
+        <tv_birth />
+        <tv_sex />
+        <birth_days />
+    </_content>
+</screen>

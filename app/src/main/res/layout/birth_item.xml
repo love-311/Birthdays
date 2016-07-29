@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="120px">
+
+<com.love311.www.birthdays.utils.CircleImageView
+    android:id="@+id/user_icon"
+    android:layout_width="80px"
+    android:layout_height="80px"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="20px"
+    android:src="@mipmap/ic_launcher"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/user_icon"
+        android:layout_marginLeft="20px"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="名字"
+            android:textSize="30px"
+            android:layout_marginTop="15px"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10px">
+            <ImageView
+                android:id="@+id/lunar_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/lunar_icon"/>
+            <TextView
+                android:id="@+id/tv_birth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8px"
+                android:text="四月初十"
+                android:textSize="24px"
+                android:textColor="#808080"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="离他的农历生日"
+            android:layout_marginTop="15px"
+            android:layout_marginRight="20px"
+            android:textSize="24px"
+            android:textColor="#808080"/>
+        <TextView
+            android:id="@+id/birth_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="220天"
+            android:layout_gravity="center"
+            android:layout_marginTop="15px"
+            android:textSize="36px"
+            android:textColor="#df4220"/>
+    </LinearLayout>
+</RelativeLayout>

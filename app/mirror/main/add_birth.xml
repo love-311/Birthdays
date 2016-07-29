@@ -1,0 +1,19 @@
+<!-- [ Mirror metadata ] generatedAt: 1464328326400 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/add_birth">
+        <!-- TextView Examples:
+        <tv_birth text="@string/string_resource" />
+        <tv_birth text="Text literal" textSize="14sp" /> -->
+        <tv_birth />
+        <!-- ImageView Examples:
+        <iv_solar src="@drawable/image_resource" />
+        <iv_solar src="relative_path/image.jpg" /> -->
+        <iv_solar />
+        <save_info />
+    </_content>
+</screen>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:id="@+id/msg_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20px"
+    android:text="工作可以不做，但是心灵不可以寂寞；生活可以不甜，但是笑容不可以间断；朋友可以不见，但是生日不忘记连线；祝你幸福好运连，生日快乐到永远！"
+    android:textSize="26px"/>
+
+    <!--<ToggleButton-->
+        <!--android:id="@+id/iv_collection"-->
+        <!--android:layout_width="40px"-->
+        <!--android:layout_height="40px"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:layout_marginRight="20px"-->
+        <!--android:disabledAlpha="?android:disabledAlpha"-->
+        <!--android:textOff="@null"-->
+        <!--android:focusable="false"-->
+        <!--android:textOn="@null"-->
+        <!--android:background="@drawable/btn_collection"-->
+       <!--/>-->
+    <ImageView
+        android:id="@+id/iv_collection"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:layout_gravity="right"
+        android:layout_marginRight="20px"
+        android:background="@drawable/heart"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10px"
+        android:src="@mipmap/address_bar" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="100px">
+    <LinearLayout
+        android:id="@+id/ll_rtn"
+        android:layout_width="100px"
+        android:layout_height="match_parent"
+        android:gravity="center">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/return_btn"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="生日"
+        android:textSize="36px"
+        android:textColor="#938888"/>
+    <LinearLayout
+        android:id="@+id/ll_modification"
+        android:layout_width="100px"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="编辑"
+             android:textSize="30px"
+            android:textColor="#938888"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>
